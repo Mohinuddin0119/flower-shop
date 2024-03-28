@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* header styles  */
+.header-container{
+    background: #9c9090;
+    display:flex;
+    justify-content: space-around;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.header-info{
+    padding: 150px;
+}
+.header-tittle{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+.header-description{
+    padding: 5px;
+    color:#272727
+}
+.btn-primary{
+    margin-top: 15px;
+    padding: 25px;
+    border: none;
+    background-color:#E55473;
+    color:#FFFFFF;
+    border-radius:10px ;
+    font-size: 20px;
+}
+.header-photo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header-img{
+    width: 400px;
+    height:100%;
+}
+/* main section related styles */
+.section-tittle{
+    text-align: center;
+    margin-top: 100px;
+}
+.tit{
+    margin-bottom: 15px;
+}
+.pink-container{
+    display: flex;
+    justify-content: space-around;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+.flower-tree1{
+    background: #c27e9f;
+    width:350px;
+    height: 400px;
+}
+.photo1{
+    width: 300px;
+    height: 400px;
+
+}
+.flower-tree2{
+    background: #7ab0b3;
+    width:350px;
+    height: 400px;
+}
+
+.flower-tree3{
+    background:#8eaa71 ;
+    width:350px;
+    height: 400px;
+}
+.photo3{
+    width:300px;
+    height: 100%;
+}
+/* another section styles */
+.section-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 100px;
+    width:1440px;
+    height: 150px;
+    background: #ece8e8;
+    padding: 20px solid red;
+}
+.icon{
+    height: 75%;
+}
+.icon-info{
+    text-align: center;
+    font-size: 20px;
+}
+
+/* offer related styles */
+.offer-container{
+    margin-top: 100px;
+    background: #cec5c5;
+    display: flex;
+    justify-content: space-around;
+    width: 1900px;
+    height: 500px;
+}
+.offer-info{
+    padding:150px;
+}
+.offer-tittle{
+    margin-bottom: 10px;
+}
+.offer-highlight{
+    color: rgb(201, 35, 35);
+}
+.offer-img{
+    margin-right: 150px;
+    height: 400px;
+    margin-right: 100px;
+}
